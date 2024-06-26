@@ -1,0 +1,14 @@
+#buttonAdicionarTarefa{
+    font-size: 20px;
+    border: none;
+    background-color: white;
+}
+
+#container-adicionar-tarefa{
+    margin: 2em 0 ;
+    text-align: center;
+}
+
+#tarefa-adicionar{
+    display: none;
+}

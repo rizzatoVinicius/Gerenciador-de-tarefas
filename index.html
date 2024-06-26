@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de tarefas</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="container-adicionar-tarefa"> 
+        <button id="buttonAdicionarTarefa">Adicionar Tarefa</button>
+    </div>
+    
+    <div class="mb-3" id="adicionar-tarefa" style="display: none;">
+        <form id="formAdicionarTarefa">
+            <div class="mb-3">
+                <label for="inputNomeTarefa" class="form-label">Nome da Tarefa</label>
+                <input type="text" class="form-control" id="inputNomeTarefa" required>
+            </div>
+            <div class="mb-3">
+                <label for="inputDescricaoTarefa" class="form-label">Descrição da Tarefa</label>
+                <textarea class="form-control" id="inputDescricaoTarefa" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar Tarefa</button>
+        </form>
+    </div>
+    
+    <div class="accordion" id="accordionTarefas">
+        <!-- Aqui serão adicionados os itens da lista -->
+    </div>
+    
+
+</body>
+<script src="js/script.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>
